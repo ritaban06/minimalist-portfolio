@@ -19,7 +19,7 @@ export function HomeContact() {
       </p>
 
       <p>
-        Or my Social links{' '}
+        Other Social links{' '}
         <a
           className="group inline-flex items-center gap-1 font-medium text-primary"
           href={links.linktree}
