@@ -16,19 +16,19 @@ interface Project {
 
 const projects: Array<Project> = [
   {
-    name: 'ExtReviewBot',
-    description: 'IRL Bug Fixer.',
+    name: 'FixInProd',
+    description: 'Fix real bugs, not toy problems.',
     status: 'development',
     icon: <LogoProjectExtReviewBot className="-ml-0.5" />,
-    link: links.projects.extreviewbot,
-    github: links.projects.github.extreviewbot,
+    link: links.projects.fixinprod,
+    github: links.projects.github.fixinprod,
   },
   {
     name: 'EduDrive',
     description: 'An one-stop digital platform built for exam preparation.',
     status: 'development',
     icon: <LogoKavalerka />,
-    link: links.projects.edudrive,
+    // link: links.projects.edudrive,
     github: links.projects.github.edudrive,
   },
 ]

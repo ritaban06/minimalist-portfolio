@@ -3,10 +3,10 @@ export const links = {
   linktree: 'https://linktr.ee/ritaban06',
   projects: {
     edudrive: 'https://ignite-client.ritaban.me',
-    extreviewbot: 'https://extreviewbot.com',
+    fixinprod: 'https://fixinprod.com',
     github: {
       edudrive: 'https://github.com/ritaban06/ignite-new',
-      extreviewbot: 'https://github.com/yourusername/extreviewbot',
+      fixinprod: 'https://github.com/ritaban06/fixinprod',
     },
   },
   social: {
