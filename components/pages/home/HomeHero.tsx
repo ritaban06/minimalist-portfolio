@@ -7,7 +7,7 @@ export function HomeHero() {
   return (
     <section>
       <Image
-        className="mb-4 size-25 object-cover"
+        className="mb-4 size-25 object-cover rounded-full"
         src="/avatar.png"
         alt="Ritaban Ghosh"
         width={100}
