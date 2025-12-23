@@ -2,6 +2,7 @@ import '@/app/globals.css'
 import { Geist, Geist_Mono } from 'next/font/google'
 // import { env } from '@/env'
 import type { Metadata } from 'next'
+import { Analytics } from '@vercel/analytics/next'
 
 const geist = Geist({
   subsets: ['latin'],
@@ -24,6 +25,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         className={`${geist.variable} ${geistMono.variable} px-4 h-full font-mono text-md text-primary antialiased sm:px-8`}
       >
         <main>{children}</main>
+        <Analytics />
       </body>
     </html>
   )
