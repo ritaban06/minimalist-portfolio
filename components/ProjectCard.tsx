@@ -1,3 +1,6 @@
+'use client'
+
+import { IconHugeGithub } from '@/components/icons/huge/IconHugeGithub'
 import { IconHugeLinkSquare02 } from '@/components/icons/huge/IconHugeLinkSquare02'
 import { ProjectStatus } from '@/components/ProjectStatus'
 import { cn } from '@/utils/css'
@@ -9,9 +12,10 @@ interface ProjectCardProps {
   status: ProjectStatusType
   icon: React.ReactNode
   link?: string
+  github?: string
 }
 
-export function ProjectCard({ name, description, status, icon, link }: ProjectCardProps) {
+export function ProjectCard({ name, description, status, icon, link, github }: ProjectCardProps) {
   const Component = link ? 'a' : 'div'
 
   return (
@@ -34,6 +38,18 @@ export function ProjectCard({ name, description, status, icon, link }: ProjectCa
 
       <p className="text-sm text-tertiary">{description}</p>
 
+      {github && (
+        <a
+          href={github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute top-3 right-8 opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-focus-within:opacity-100"
+          onClick={(e) => e.stopPropagation()}
+          aria-label="View on GitHub"
+        >
+          <IconHugeGithub className="size-3.5 fill-zinc-400 hover:fill-zinc-600 transition-colors" />
+        </a>
+      )}
       {link && (
         <IconHugeLinkSquare02 className="absolute top-3 right-3 size-3.5 fill-zinc-400 opacity-0 transition-opacity transform-gpu duration-300 group-hover:opacity-100 group-focus-within:opacity-100" />
       )}

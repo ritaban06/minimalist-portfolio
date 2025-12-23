@@ -1,6 +1,5 @@
 import { LogoKavalerka } from '@/components/logos/projects/LogoKavalerka'
 import { LogoProjectExtReviewBot } from '@/components/logos/projects/LogoProjectExtReviewBot'
-import { LogoSleepCalculator } from '@/components/logos/projects/LogoSleepCalculator'
 import { ProjectCard } from '@/components/ProjectCard'
 import { SectionHeader } from '@/components/SectionHeader'
 import { links } from '@/data/links'
@@ -12,36 +11,25 @@ interface Project {
   status: ProjectStatusType
   icon: React.ReactNode
   link?: string
+  github?: string
 }
 
 const projects: Array<Project> = [
   {
     name: 'ExtReviewBot',
-    description: 'Browser extension review tracking & analytics.',
-    status: 'active',
+    description: 'IRL Bug Fixer.',
+    status: 'development',
     icon: <LogoProjectExtReviewBot className="-ml-0.5" />,
     link: links.projects.extreviewbot,
+    github: links.projects.github.extreviewbot,
   },
   {
-    name: 'Kavalerka.pl',
-    description: 'Real estate platform for studio apartments.',
-    status: 'active',
+    name: 'EduDrive',
+    description: 'An one-stop digital platform built for exam preparation.',
+    status: 'development',
     icon: <LogoKavalerka />,
-    link: links.projects.kavalerka,
-  },
-  {
-    name: 'Sleep Calculator',
-    description: 'Find out the perfect bedtime or wake up time to rise feeling energized.',
-    status: 'active',
-    icon: <LogoSleepCalculator className="rounded-sm" />,
-    link: links.projects.sleepcalculator,
-  },
-  {
-    name: 'InGastro.pl',
-    description: 'Job board for finding hospitality jobs in Poland.',
-    status: 'sold',
-    icon: <div className="size-4 bg-[#FDB71C] rounded-sm p-1" />,
-    link: links.projects.ingastro,
+    link: links.projects.edudrive,
+    github: links.projects.github.edudrive,
   },
 ]
 

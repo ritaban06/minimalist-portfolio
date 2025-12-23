@@ -2,11 +2,15 @@ export const links = {
   email: 'ghoshritabancollege@gmail.com',
   linktree: 'https://linktr.ee/ritaban06',
   projects: {
-    kavalerka: 'https://kavalerka.pl',
+    edudrive: 'https://ignite-client.ritaban.me',
     extreviewbot: 'https://extreviewbot.com',
     sleepcalculator: 'https://kalkulatorsnu.com.pl',
     ingastro:
       'https://www.indiehackers.com/post/how-i-sold-my-niche-job-board-for-13-500-046f1aa443',
+    github: {
+      edudrive: 'https://github.com/yourusername/edudrive',
+      extreviewbot: 'https://github.com/yourusername/extreviewbot',
+    },
   },
   // blog: {
   //   soldJobBoard:

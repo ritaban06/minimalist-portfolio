@@ -8,6 +8,7 @@ const projectStatusVariants = tv({
     status: {
       active: 'bg-green-100 text-green-800',
       sold: 'bg-orange-100 text-orange-800',
+      development: 'bg-blue-100 text-blue-800',
     },
   },
   defaultVariants: {
