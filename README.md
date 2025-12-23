@@ -5,7 +5,7 @@
   </div>
 
   <h3>
-    <a href="https://andrewchmr.com">andrewchmr.com</a>
+    <a href="https://ritaban.xyz">ritaban.xyz</a>
   </h3>
 
   <p>
