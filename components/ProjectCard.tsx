@@ -16,17 +16,13 @@ interface ProjectCardProps {
 }
 
 export function ProjectCard({ name, description, status, icon, link, github }: ProjectCardProps) {
-  const Component = link ? 'a' : 'div'
-
   return (
-    <Component
+    <div
       className={cn(
         'block p-3 bg-layout-secondary-active border border-layout-primary rounded-lg',
-        link &&
-          'group relative ring-3 ring-transparent outline-none cursor-pointer transition-all duration-300 hover:border-zinc-300 hover:ring-zinc-100 focus-visible:border-zinc-300 focus-visible:ring-zinc-100'
+        (link || github) &&
+          'group relative ring-3 ring-transparent transition-all duration-300 hover:border-zinc-300 hover:ring-zinc-100'
       )}
-      href={link}
-      target={link ? '_blank' : undefined}
     >
       <div className="flex items-center gap-2 mb-2">
         <div className="shrink-0 grid place-content-center size-6 bg-layout-secondary-contrast border border-layout-primary rounded-sm [&>svg]:size-4">
@@ -51,8 +47,16 @@ export function ProjectCard({ name, description, status, icon, link, github }: P
         </a>
       )}
       {link && (
-        <IconHugeLinkSquare02 className="absolute top-3 right-3 size-3.5 fill-zinc-400 opacity-0 transition-opacity transform-gpu duration-300 group-hover:opacity-100 group-focus-within:opacity-100" />
+        <a
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute top-3 right-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-focus-within:opacity-100"
+          aria-label="Visit project"
+        >
+          <IconHugeLinkSquare02 className="size-3.5 fill-zinc-400 hover:fill-zinc-600 transition-colors" />
+        </a>
       )}
-    </Component>
+    </div>
   )
 }
