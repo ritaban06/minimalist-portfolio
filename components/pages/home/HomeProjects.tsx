@@ -20,7 +20,7 @@ const projects: Array<Project> = [
     description: 'Fix real bugs, not toy problems.',
     status: 'development',
     icon: <LogoProjectExtReviewBot className="-ml-0.5" />,
-    link: links.projects.fixinprod,
+    // link: links.projects.fixinprod,
     github: links.projects.github.fixinprod,
   },
   {
