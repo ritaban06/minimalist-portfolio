@@ -14,6 +14,8 @@ import { LogoSupabase } from '@/components/logos/tech/LogoSupabase'
 import { LogoTailwind } from '@/components/logos/tech/LogoTailwind'
 import { LogoTypescript } from '@/components/logos/tech/LogoTypescript'
 import { LogoClerk } from '@/components/logos/tech/LogoClerk'
+import { LogoGoogleCloud } from '@/components/logos/tech/LogoGoogleCloud'
+import { LogoMongodb } from '@/components/logos/tech/LogoMongodb'
 
 type TechStackMap = Record<string, React.ComponentType<{ className?: string }> | undefined>
 
@@ -24,7 +26,7 @@ export const techStackIcons: TechStackMap = {
   'TanStack Query': undefined,
   TypeScript: LogoTypescript,
   Clerk: LogoClerk,
-  'Google Cloud OAuth': undefined,
+  'Google Cloud OAuth': LogoGoogleCloud,
   Node: LogoNode,
   'Node.js': LogoNode,
   Fastify: undefined,
@@ -42,6 +44,7 @@ export const techStackIcons: TechStackMap = {
   Redux: LogoRedux,
   Storybook: undefined,
   Jest: LogoJest,
+  MongoDB: LogoMongodb,
   MUI: LogoMUI,
   GraphQL: LogoGraphql,
   RxJS: LogoRxjs,
