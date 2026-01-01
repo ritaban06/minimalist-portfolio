@@ -2,10 +2,10 @@ export const links = {
   email: 'ghoshritabancollege@gmail.com',
   linktree: 'https://linktr.ee/ritaban06',
   projects: {
-    edudrive: 'https://ignite-client.ritaban.me',
+    edudrive: 'https://edudrive-client.vercel.app',
     fixinprod: 'https://fixinprod.com',
     github: {
-      edudrive: 'https://github.com/ritaban06/ignite-new',
+      edudrive: 'https://github.com/ritaban06/edudrive',
       fixinprod: 'https://github.com/ritaban06/fixinprod',
     },
   },

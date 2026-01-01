@@ -1,4 +1,4 @@
-import { LogoKavalerka } from '@/components/logos/projects/LogoKavalerka'
+import { LogoEduDrive } from '@/components/logos/projects/LogoEduDrive'
 import { LogoProjectExtReviewBot } from '@/components/logos/projects/LogoProjectExtReviewBot'
 import { ProjectCard } from '@/components/ProjectCard'
 import { SectionHeader } from '@/components/SectionHeader'
@@ -26,9 +26,9 @@ const projects: Array<Project> = [
   {
     name: 'EduDrive',
     description: 'An one-stop digital platform built for exam preparation.',
-    status: 'development',
-    icon: <LogoKavalerka />,
-    // link: links.projects.edudrive,
+    status: 'active',
+    icon: <LogoEduDrive className="some-class" />, // Adjusted for named import
+    link: links.projects.edudrive,
     github: links.projects.github.edudrive,
   },
 ]
