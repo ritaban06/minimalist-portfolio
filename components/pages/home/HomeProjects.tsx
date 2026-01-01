@@ -27,7 +27,7 @@ const projects: Array<Project> = [
     name: 'EduDrive',
     description: 'An one-stop digital platform built for exam preparation.',
     status: 'active',
-    icon: <LogoEduDrive className="some-class" />, // Adjusted for named import
+    icon: <LogoEduDrive className="some-class" />,
     link: links.projects.edudrive,
     github: links.projects.github.edudrive,
   },
