@@ -5,7 +5,7 @@ import { links } from '@/data/links'
 
 const socialLinks = [
   {
-    label: 'X/Twitter',
+    label: 'X',
     icon: IconHugeNewTwitter,
     href: links.social.x,
     fill: 'fill-primary',
@@ -30,7 +30,7 @@ export function HomeSocials() {
         {socialLinks.map((link) => (
           <li className="group" key={link.label}>
             <a
-              className="inline-flex items-center gap-2 px-2.5 h-6 bg-zinc-100 rounded-full outline-none font-medium text-xs text-secondary transition-all hover:bg-zinc-200/75 focus:ring-3 focus:ring-zinc-200"
+              className="inline-flex items-center gap-2 px-2.5 h-6 bg-layout-secondary-contrast rounded-full outline-none font-medium text-xs text-primary transition-all hover:bg-layout-secondary-hover focus:ring-3 focus:ring-zinc-700"
               href={link.href}
               target="_blank"
             >

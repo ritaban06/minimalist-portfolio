@@ -13,8 +13,8 @@ const buttonVariants = tv({
   variants: {
     variant: {
       primary: {
-        base: 'bg-layout-primary-active text-contrast hover:bg-layout-primary-hover',
-        hotkey: 'bg-layout-primary-contrast border-layout-contrast',
+        base: 'bg-[var(--color-accent)] text-contrast hover:opacity-90',
+        hotkey: 'bg-[var(--color-accent)] border-layout-contrast',
       },
       secondary: {
         base: 'bg-layout-secondary-active border border-layout-primary text-primary hover:bg-layout-secondary-hover',
