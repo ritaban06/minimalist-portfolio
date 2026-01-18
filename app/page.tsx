@@ -4,16 +4,16 @@ import { HomeHero } from '@/components/pages/home/HomeHero'
 import { HomeProjects } from '@/components/pages/home/HomeProjects'
 import { HomeSocials } from '@/components/pages/home/HomeSocials'
 import { HomeTechStack } from '@/components/pages/home/HomeTechStack'
+import { getLastUpdatedDate } from '@/utils/getLastUpdated'
 // import { HomeWorkExperience } from '@/components/pages/home/HomeWorkExperience'
 
 import type { Metadata } from 'next'
-import { getLastUpdatedDate } from '@/utils/getLastUpdated'
 
 export const metadata: Metadata = {
   title: 'Ritaban Ghosh - Full Stack Developer',
   description: `Full stack developer based in Kolkata, India. If you need a reliable developer to build your product, I'm here to help.`,
   alternates: {
-    canonical: '/',
+    canonical: 'https://ritaban.xyz',
   },
 }
 

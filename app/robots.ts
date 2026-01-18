@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next'
+
 // import { env } from '@/env'
 
 export default function robots(): MetadataRoute.Robots {
@@ -7,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    // sitemap: `${env.NEXT_PUBLIC_BASE_URL}/sitemap.xml`,
+    sitemap: `https://ritaban.xyz/sitemap.xml`,
   }
 }
