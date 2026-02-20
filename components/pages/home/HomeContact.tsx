@@ -26,7 +26,7 @@ export function HomeContact() {
           target="_blank"
         >
           <span className="relative inline-block after:absolute after:inset-x-0 after:-bottom-px after:h-px after:bg-accent after:transition-all after:duration-300 group-hover:after:h-0.5">
-            Linktree
+            Socials
           </span>
         </a>
       </p>

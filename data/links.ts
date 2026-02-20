@@ -1,6 +1,6 @@
 export const links = {
   email: 'ghoshritabancollege@gmail.com',
-  linktree: 'https://linktr.ee/ritaban06',
+  linktree: 'https://bio.ritaban.xyz',
   projects: {
     edudrive: 'https://edudrive-client.vercel.app',
     fixinprod: 'https://fixinprod.com',

@@ -22,9 +22,9 @@ export function HomeHeroActions() {
 
   return (
     <div className="flex items-center gap-4">
-      <BaseButton className="min-w-33" hotkey="L" variant="primary" asChild>
+      <BaseButton className="min-w-33" hotkey="S" variant="primary" asChild>
         <a href={links.linktree} target="_blank">
-          Linktree
+          Socials
         </a>
       </BaseButton>
 
