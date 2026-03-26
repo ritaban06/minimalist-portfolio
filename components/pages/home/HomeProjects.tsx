@@ -1,5 +1,4 @@
 import { LogoEduDrive } from '@/components/logos/projects/LogoEduDrive'
-import { LogoProjectExtReviewBot } from '@/components/logos/projects/LogoProjectExtReviewBot'
 import { ProjectCard } from '@/components/ProjectCard'
 import { SectionHeader } from '@/components/SectionHeader'
 import { links } from '@/data/links'
@@ -31,6 +30,15 @@ const projects: Array<Project> = [
     icon: <LogoEduDrive className="some-class" />,
     link: links.projects.edudrive,
     github: links.projects.github.edudrive,
+  },
+  {
+    name: 'DrawMe',
+    description:
+      'DSA Learning System with spaced repetition, pattern recognition, and graph-based topic navigation.',
+    status: 'development',
+    icon: undefined,
+    link: undefined,
+    github: undefined,
   },
 ]
 
