@@ -3,10 +3,9 @@ export const links = {
   linktree: 'https://bio.ritaban.xyz',
   projects: {
     edudrive: 'https://edudrive-client.vercel.app',
-    fixinprod: 'https://fixinprod.com',
     github: {
       edudrive: 'https://github.com/ritaban06/edudrive',
-      fixinprod: 'https://github.com/ritaban06/fixinprod',
+      neurocord: 'https://github.com/ritaban06/neurocord',
     },
   },
   social: {

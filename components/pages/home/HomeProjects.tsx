@@ -16,12 +16,13 @@ interface Project {
 
 const projects: Array<Project> = [
   {
-    name: 'FixInProd',
-    description: 'Fix real bugs, not toy problems.',
-    status: 'development',
-    icon: <LogoProjectExtReviewBot className="-ml-0.5" />,
+    name: 'NeuroCord',
+    description:
+      'Discord slash-command AI bot using Express and Groq, built for low-cost deployment on Render with deferred interaction handling and secure request verification.',
+    status: 'active',
     // link: links.projects.fixinprod,
-    github: links.projects.github.fixinprod,
+    github: links.projects.github.neurocord,
+    icon: undefined,
   },
   {
     name: 'EduDrive',
