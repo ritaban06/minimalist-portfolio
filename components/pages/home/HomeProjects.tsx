@@ -1,4 +1,5 @@
 import { LogoEduDrive } from '@/components/logos/projects/LogoEduDrive'
+import { LogoRoadEyeAI } from '@/components/logos/projects/LogoRoadEyeAI'
 import { ProjectCard } from '@/components/ProjectCard'
 import { SectionHeader } from '@/components/SectionHeader'
 import { links } from '@/data/links'
@@ -30,6 +31,14 @@ const projects: Array<Project> = [
     icon: <LogoEduDrive className="some-class" />,
     link: links.projects.edudrive,
     github: links.projects.github.edudrive,
+  },
+  {
+    name: 'RoadEye.AI',
+    description: 'Smart Traffic Management & Accident Prevention System',
+    status: 'active',
+    icon: <LogoRoadEyeAI className="some-class" />,
+    link: links.projects.roadeye,
+    github: links.projects.github.roadeye,
   },
   {
     name: 'DrawMe',
